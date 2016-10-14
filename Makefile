@@ -4,9 +4,8 @@ SUBLEVEL = 61
 EXTRAVERSION =
 NAME = TOSSUG Baby Fish
 
-#TOOLCHAIN_DIR=$(CURDIR)/toolchain/aarch64-linux-android-5.3-kernel/bin/aarch64-linux-android-
-TOOLCHAIN_DIR =/home/aarch64-linux-android-5.3-kernel/bin/aarch64-linux-android-
-
+#TOOLCHAIN_DIR=$(CURDIR)/toolchain/toolchain64/bin/aarch64-linux-android-
+TOOLCHAIN_DIR =/root/toolchain64/bin/aarch64-linux-android-
 
 ifdef CONFIG_WITH_CCACHE
 ccache := ccache
